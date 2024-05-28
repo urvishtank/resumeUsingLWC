@@ -1,0 +1,8 @@
+.wrapper{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+ }
+ .header_color{
+    /* --slds-c-modal-header-color-background: LightGray; */
+     background: #133c58;
+     color: #000000;
+ }
