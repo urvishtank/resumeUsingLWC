@@ -1,0 +1,13 @@
+<!--
+  @description       : 
+  @author            : Urvish Tank
+  @group             : 
+  @last modified on  : 05-16-2024
+  @last modified by  : Urvish Tank
+-->
+<template>
+    <h3 class={isHeading}>{heading}</h3>
+    <template for:each={tagsList} for:item="tag">
+        <div key={tag} class="tags">{tag}</div>
+    </template>
+</template>
